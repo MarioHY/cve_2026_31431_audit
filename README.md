@@ -6,6 +6,14 @@
 
 This project provides a professional Python script designed to check if a system is vulnerable to **CVE-2026-31431** and demonstrates how to exploit it for research purposes.
 
+## 🎬 Full Workflow
+
+The diagram below illustrates the complete workflow from Environment Audit (SCAN), Patch Injection (PUNCH), to Root Privilege Escalation (SHELL), and finally Trace Cleanup (CLEAN):
+
+![Full Demo Sequence](images/demo.gif)
+
+---
+
 ## 🛠 Core Features
 
 *   **Detection**: Checks if the current kernel is affected by the CVE-2026-31431 vulnerability using a non-destructive shadow sequence.
