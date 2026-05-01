@@ -8,10 +8,10 @@ This project provides a professional Python script designed to check if a system
 
 ## 🛠 Core Features
 
-*   **`[SCAN]` Detection**: Checks if the current kernel is affected by the CVE-2026-31431 vulnerability using a non-destructive shadow sequence.
-*   **`[PUNCH]` Exploitation**: Leverages the vulnerability via page cache hijacking to inject data into `/etc/passwd` for privilege escalation simulation.
-*   **`[SHELL]` Verification**: Invokes an interactive environment to verify the elevated privileges and gain root access.
-*   **`[CLEAN]` Cleanup**: Flushes the system page cache to restore the audit state and ensure system consistency.
+*   **Detection**: Checks if the current kernel is affected by the CVE-2026-31431 vulnerability using a non-destructive shadow sequence.
+*   **Exploitation**: Leverages the vulnerability via page cache hijacking to inject data into `/etc/passwd` for privilege escalation simulation.
+*   **Verification**: Invokes an interactive environment to verify the elevated privileges and gain root access.
+*   **Cleanup**: Flushes the system page cache to restore the audit state and ensure system consistency.
 
 ## 🚀 Usagee
 
